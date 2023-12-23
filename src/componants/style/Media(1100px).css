@@ -1,0 +1,54 @@
+@media(width<1100px){
+/* Navbar3*/
+
+.Navbar3-data{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+
+/* Nanbar3 link*/
+.Navbar3 .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+
+/* .Navbar3 .link  p*/
+.Navbar3 .link p{
+    color: white;
+}
+
+/* home */
+.Home{
+    display: block !important;
+}
+
+
+/* ////////////BodyCener//////////////  */
+
+/* .Categories */
+.Categories{
+    width: 30% !important;
+    gap: 5px ;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* .Categories .containerr  */
+.containerr{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}

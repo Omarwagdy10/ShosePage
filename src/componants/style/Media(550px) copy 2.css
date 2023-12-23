@@ -1,0 +1,89 @@
+@media(width<550px){
+    /* navbar1 */
+
+.Navbar1{
+
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* ============Navbar============= */
+
+/* home */
+.Home{
+    display: block !important;
+}
+
+
+/* ////////////BodyCener//////////////  */
+
+/* .Categories */
+.Categories{
+    width: 100% !important;
+    gap: 5px ;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* .Categories .containerr  */
+.containerr{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* bodyCenter */
+.bodyCenter{
+    width: 95% !important;
+    position: relative;
+    z-index: 5;
+
+}
+
+/* ================================== */
+
+
+/* ---------footer-------- */
+/* .Footer-Ls */
+.Footer-Ls{
+    width: 90% !important;
+    margin: auto;
+    display: flex;
+    background-color: white ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px 0px;
+    
+}
+
+.Footer-Ls .item-img img{
+    width: 80% !important;
+}
+
+/* ================================ */
+
+.Footer-Rs{
+    width: 90% !important;
+    display: flex;
+    background-color: white ;
+    border-radius: 15px;
+}
+/* .Footer-Ls .item-img img */
+.Footer-Rs .item-img img{
+    width: 80% !important;
+}
+
+}
