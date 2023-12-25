@@ -83,7 +83,19 @@
 }
 /* .Footer-Ls .item-img img */
 .Footer-Rs .item-img img{
-    width: 80% !important;
+    width: 55% !important;
 }
+
+  /* w-800px */
+  .w-550px {
+    display: block !important;
+  }
+
+  /* ================================= */
+  .w-100px,
+  .w-800px {
+    display: none !important;
+  }
+
 
 }
