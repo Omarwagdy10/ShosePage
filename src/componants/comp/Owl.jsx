@@ -14,6 +14,17 @@ import { CiUser } from "react-icons/ci";
 
 
 function Owl() {
+  const imgs=[
+    img1,
+    img2,
+    img3,
+    img4,
+    img5
+  ]
+  const show= ()=>{
+    console.log(imgs.id);
+
+  }
   return (
     <div className='Footer'>
 
@@ -78,7 +89,7 @@ function Owl() {
 
 
 
-
+{/* ==============Footer-Rs ==============*/}
 
     <div className='Footer-Rs w-100px'>
     <OwlCarousel className='owl-theme Owl2' items={4} loop margin={10} >
@@ -110,7 +121,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -150,7 +161,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -190,7 +201,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -226,7 +237,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -244,7 +255,7 @@ function Owl() {
 
     </div>
     <div className='Footer-Rs w-800px'>
-    <OwlCarousel className='owl-theme Owl2' items={4} loop margin={10} >
+    <OwlCarousel className='owl-theme Owl2' items={1} loop margin={10} >
     <div class='item'>
     
     <div className='item-img'>
@@ -273,7 +284,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -313,7 +324,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -353,7 +364,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -389,7 +400,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -436,7 +447,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -476,7 +487,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -516,7 +527,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
@@ -552,7 +563,7 @@ function Owl() {
     <p className='p3'>50$</p>
     <p className='old-price'><del>50$</del></p>
     <div className='Add-button'>
-      <button className='AddtoCart'>AddtoCart</button>
+      <button onClick={show} className='AddtoCart'>AddtoCart</button>
     </div>
 
     </div>
