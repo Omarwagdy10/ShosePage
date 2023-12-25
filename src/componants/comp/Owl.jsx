@@ -255,7 +255,7 @@ function Owl() {
 
     </div>
     <div className='Footer-Rs w-800px'>
-    <OwlCarousel className='owl-theme Owl2' items={1} loop margin={10} >
+    <OwlCarousel className='owl-theme Owl2' items={2} loop margin={10} >
     <div class='item'>
     
     <div className='item-img'>
@@ -418,7 +418,7 @@ function Owl() {
 
     </div>
     <div className='Footer-Rs w-550px'>
-    <OwlCarousel className='owl-theme Owl2' items={4} loop margin={10} >
+    <OwlCarousel className='owl-theme Owl2' items={1} loop margin={10} >
     <div class='item'>
     
     <div className='item-img'>
